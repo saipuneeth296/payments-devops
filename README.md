@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Payment Gateway and Processor on local Kubernetes
 
 Two small services (`payment-gateway` and `payment-processor`) deployed to a local
@@ -154,3 +155,6 @@ k8s/base/                 namespace, config, both services, network policies
 k8s/overlays/chaos/       failure injection for reliability demos
 scripts/smoke.sh          end-to-end checks used by `make smoke`
 ```
+=======
+# payments-devops
+>>>>>>> fc7b5d39406b5a3a0476d045417073b371607857
