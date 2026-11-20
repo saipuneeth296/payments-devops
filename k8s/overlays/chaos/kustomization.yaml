@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources: [../../base]
+configMapGenerator:
+  - name: payment-config
+    behavior: merge
+    literals: [FAILURE_RATE=0.3, LATENCY_MS=0]
